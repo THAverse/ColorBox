@@ -1,0 +1,121 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+h1{
+  margin-top: 20px;
+}
+.container {
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.blue-box {
+  padding: 40px 0;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  color: white;
+  background-color: blue;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.green-box {
+  padding: 40px 0;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  color: white;
+  background-color: green;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.yellow-box {
+  padding: 40px 0;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  color: white;
+  background-color:rgb(235, 231, 18);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.red-box {
+  padding: 40px 0;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  color: white;
+  background-color: red;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.black-box {
+  padding: 40px 0;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  color: white;
+  background-color:black;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+
+.purple-box {
+  padding: 40px 0;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  position: relative;
+  color: white;
+  background-color:purple;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.box-item{
+  text-align: center;
+}
+
+button {
+  padding: 8px 40px ;
+  margin-top: 12PX;
+  font-size: 16px;
+  cursor: pointer;
+  border:2px solid black;
+  border-radius: 5px;
+  color: black;
+  transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+  background-color: red;
+  transform: scale(1.05);
+}

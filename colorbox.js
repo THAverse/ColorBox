@@ -8,19 +8,19 @@ boxItems.forEach(item => {
 
   button.addEventListener('click', () => {
     if (box.classList.contains('yellow-box')) {
-      box.style.backgroundColor = 'orange';
+      box.style.backgroundColor = 'purple';
       box.querySelector('p').textContent = 'YELLOW';
     } 
     else if (box.classList.contains('green-box')) {
-      box.style.backgroundColor = 'red';
+      box.style.backgroundColor = 'black';
       box.querySelector('p').textContent = 'GREEN';
     } 
     else if (box.classList.contains('blue-box')) {
-      box.style.backgroundColor = 'pink';
+      box.style.backgroundColor = 'red';
       box.querySelector('p').textContent = 'BLUE';
     }
     else if (box.classList.contains('purple-box')) {
-      box.style.backgroundColor = 'brown';
+      box.style.backgroundColor = 'yellow';
       box.querySelector('p').textContent = 'PURPLE';
     }
     else if (box.classList.contains('black-box')) {

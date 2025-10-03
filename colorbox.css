@@ -102,6 +102,9 @@ h1{
 .box-item{
   text-align: center;
 }
+.purple{
+  background-color: purple;
+}
 
 button {
   padding: 8px 40px ;
